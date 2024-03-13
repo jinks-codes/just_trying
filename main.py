@@ -10,7 +10,7 @@ def main():
     if password == "ABCDE":
         st.success("Congratulations! You've passed the test.")
         # Redirect to another page after 3 seconds
-        redirect_page("https://www.youtube.com/watch?v=skcHKj3R90k")
+        redirect_page("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.indiatoday.in%2Ftechnology%2Fnews%2Fstory%2Fiphone-15-vs-iphone-13-vs-iphone-14-which-one-to-buy-during-diwali-sales-on-amazon-2446648-2023-10-09&psig=AOvVaw043sE9lm8BbWBPsPclfErH&ust=1710435322748000&source=images&cd=vfe&opi=89978449&ved=0CBUQjhxqFwoTCLjOup_a8YQDFQAAAAAdAAAAABAE")
     elif password != "":
         st.error("Incorrect password. Please try again.")
 
